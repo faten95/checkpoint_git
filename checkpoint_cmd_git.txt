@@ -1,0 +1,47 @@
+
+C:\Users\Faten>cd Desktop\learn_git_again
+
+C:\Users\Faten\Desktop\learn_git_again>git init
+
+
+C:\Users\Faten\Desktop\learn_git_again>git add third.txt
+
+
+C:\Users\Faten\Desktop\learn_git_again>git commit -m "adding third.txt"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Faten@DESKTOP-VI6HV90.(none)')
+
+C:\Users\Faten\Desktop\learn_git_again>git config --global user.name "FATEN"
+
+C:\Users\Faten\Desktop\learn_git_again>git config --global user.email "fatenchmengui@gmail.com"
+
+C:\Users\Faten\Desktop\learn_git_again>git commit -m "adding third.txt"
+
+C:\Users\Faten\Desktop\learn_git_again>git log
+
+C:\Users\Faten\Desktop\learn_git_again>git add fourth.txt
+
+C:\Users\Faten\Desktop\learn_git_again>git commit -m  "adding fourth.txt"
+
+C:\Users\Faten\Desktop\learn_git_again>git rm third.txt
+
+C:\Users\Faten\Desktop\learn_git_again>git add .
+
+C:\Users\Faten\Desktop\learn_git_again>git commit -m "removing third.txt"
+
+C:\Users\Faten\Desktop\learn_git_again>git log
+
+C:\Users\Faten\Desktop\learn_git_again>git config --global core.pager cat
+
+C:\Users\Faten\Desktop\learn_git_again>git config --list
+
